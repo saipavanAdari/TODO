@@ -1,7 +1,8 @@
 import axios from 'axios';
-
+// your backend URL
 const API = axios.create({
-  baseURL: 'http://localhost:5001', // your backend URL
+  // baseURL: 'http://localhost:5001', 
+  baseURL: 'https://todo-xzkz.onrender.com',
 });
 
 // Send JWT token with each request
